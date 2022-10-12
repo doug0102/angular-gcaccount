@@ -1,0 +1,11 @@
+:host {
+    display: block;
+
+    li {
+        div {
+            display: inline-flex;
+            max-width: 90%;
+            overflow: auto;
+        }
+    }
+}

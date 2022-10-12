@@ -1,0 +1,42 @@
+<mat-card>
+    <mat-card-title>Session</mat-card-title>
+    <mat-card-subtitle>A summary of the user session.</mat-card-subtitle>
+    <mat-card-content>
+        <ul>
+            <li>
+                <label>Authenticated: </label>
+                <div>{{isAuthenticated}}</div>
+            </li>
+            <li>
+                <label>User Data: </label>
+                <ul>
+                    <li>
+                        <label>Sub: </label>
+                        <div>{{userData.sub}}</div>
+                    </li>
+                    <li>
+                        <label>Name: </label>
+                        <div>{{userData.name}}</div>
+                    </li>
+                    <li>
+                        <label>Nickname: </label>
+                        <div>{{userData.nickname}}</div>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <label>Access Token: </label>
+                <div>{{accessToken}}</div>
+            </li>
+            <li>
+                <label>ID Token: </label>
+                <div>{{idToken}}</div>
+            </li>
+        </ul>
+    </mat-card-content>
+    <mat-card-actions>
+        <button mat-button matTooltip="Click to login" [matTooltipPosition]="'below'" (click)="login()" [disabled]="isAuthenticated">LOGIN</button>
+        <button mat-button matTooltip="Click to force a refresh of the session" [matTooltipPosition]="'below'" (click)="forceRefreshSession()" [disabled]="!isAuthenticated">REFRESH SESSION</button>
+        <button mat-button matTooltip="Click to logout" [matTooltipPosition]="'below'" (click)="logout()" [disabled]="!isAuthenticated">LOGOUT</button>
+    </mat-card-actions>
+</mat-card>
