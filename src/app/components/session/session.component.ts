@@ -33,13 +33,6 @@ export class SessionComponent implements OnInit {
       if (idToken) {
         this.idToken = idToken;
       }
-
-      if (this.isAuthenticated) {
-        this.router.navigate(['home']);
-      }
-      else {
-        this.router.navigate(['login']);
-      }
     });
   }
 

@@ -4,13 +4,33 @@ import { ForbiddenComponent } from './components/forbidden/forbidden.component';
 import { HomeComponent } from './components/home/home.component';
 import { LoginComponent } from './components/login/login.component';
 import { UnauthorizedComponent } from './components/unauthorized/unauthorized.component';
+import { AuthorizationGuard } from './guards/authorization/authorization.guard';
+import { LoginGuard } from './guards/login/login.guard';
 
 const routes: Routes = [
-  { path: '', component: HomeComponent },
-  { path: 'login', component: LoginComponent },
-  { path: 'home', component: HomeComponent },
-  { path: 'forbidden', component: ForbiddenComponent },
-  { path: 'unauthorized', component: UnauthorizedComponent },
+  { 
+    path: '', 
+    component: LoginComponent,
+    canActivate: [LoginGuard]
+  },
+  { 
+    path: 'login', 
+    component: LoginComponent,
+    canActivate: [LoginGuard]
+  },
+  { 
+    path: 'home', 
+    component: HomeComponent,
+    canActivate: [AuthorizationGuard]
+  },
+  { 
+    path: 'forbidden', 
+    component: ForbiddenComponent,
+  },
+  { 
+    path: 'unauthorized', 
+    component: UnauthorizedComponent 
+  },
 ];
 
 @NgModule({
