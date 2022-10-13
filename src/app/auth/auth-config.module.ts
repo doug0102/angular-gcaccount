@@ -19,8 +19,7 @@ import { AuthModule } from 'angular-auth-oidc-client';
             unauthorizedRoute: '/unauthorized',
             forbiddenRoute: '/forbidden',
             secureRoutes: [
-                'https://my-secure-url.com/', 
-                'https://my-second-secure-url.com/'
+                'https://dev.account.gccollab.ca/api',
             ]
         }
       })],
