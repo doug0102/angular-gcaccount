@@ -13,11 +13,15 @@ import { AuthModule } from 'angular-auth-oidc-client';
             responseType: 'id_token token',
             silentRenew: true,
             useRefreshToken: true,
-            //silentRenewUrl: window.location.origin + '/silent-renew.html',
+            silentRenewUrl: window.location.origin + '/silent-renew.html',
             renewTimeBeforeTokenExpiresInSeconds: 10,
             postLoginRoute: '/home',
             unauthorizedRoute: '/unauthorized',
             forbiddenRoute: '/forbidden',
+            secureRoutes: [
+                'https://my-secure-url.com/', 
+                'https://my-second-secure-url.com/'
+            ]
         }
       })],
     exports: [AuthModule],
