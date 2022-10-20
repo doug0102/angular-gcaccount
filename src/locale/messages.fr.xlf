@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="5537753004564594334" datatype="html">
+        <source>Forbidden Page</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/forbidden/forbidden.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+        <target>Page interdite</target>
+      </trans-unit>
+      <trans-unit id="122967491084880258" datatype="html">
+        <source>Users who fail to authenticate will be routed to the forbidden page.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/forbidden/forbidden.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <target>Les utilisateurs qui ne parviennent pas à s'authentifier seront redirigés vers la page interdite.</target>
+      </trans-unit>
+      <trans-unit id="4599249044041250789" datatype="html">
+        <source>I forbid you! Begone!</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/forbidden/forbidden.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <target>Je vous interdis! Partez !</target>
+      </trans-unit>
+      <trans-unit id="4466769173836932911" datatype="html">
+        <source>Angular - GCAccount Auth Example</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/header/header.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <target>Angular - Exemple d'authentification GCAccount</target>
+      </trans-unit>
+      <trans-unit id="8414318564296519625" datatype="html">
+        <source>Home Page</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/home/home.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+        <target>Page d'accueil</target>
+      </trans-unit>
+      <trans-unit id="6711700680557534296" datatype="html">
+        <source>This page is only available to authenticated users.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/home/home.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <target>Cette page n'est accessible qu'aux utilisateurs authentifiés.</target>
+      </trans-unit>
+      <trans-unit id="5375736122014445443" datatype="html">
+        <source>You've successfully authenticated. Welcome to the home page!</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/home/home.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <target>Vous vous êtes authentifié avec succès. Bienvenue sur la page d'accueil!</target>
+      </trans-unit>
+      <trans-unit id="4001149132172941700" datatype="html">
+        <source>Login Page</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/login/login.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+        <target>Page de connexion</target>
+      </trans-unit>
+      <trans-unit id="4511278531182325773" datatype="html">
+        <source>This page appears when the user has not been authenticated.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/login/login.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <target>Cette page apparaît lorsque l'utilisateur n'a pas été authentifié.</target>
+      </trans-unit>
+      <trans-unit id="7473964257675165822" datatype="html">
+        <source>Please login to access the home page.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/login/login.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <target>Veuillez vous connecter pour accéder à la page d'accueil.</target>
+      </trans-unit>
+      <trans-unit id="5903110565317428249" datatype="html">
+        <source>Session</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/session/session.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+        <target>Session</target>
+      </trans-unit>
+      <trans-unit id="6889793856724033038" datatype="html">
+        <source>A summary of the user session.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/session/session.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <target>Un résumé de la session utilisateur.</target>
+      </trans-unit>
+      <trans-unit id="3482739346708355755" datatype="html">
+        <source>Authenticated:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/session/session.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+        <target>Authentifié:</target>
+      </trans-unit>
+      <trans-unit id="201618912604743570" datatype="html">
+        <source>User Data:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/session/session.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+        <target>Données d'utilisateur:</target>
+      </trans-unit>
+      <trans-unit id="789718033723866082" datatype="html">
+        <source>Sub:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/session/session.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+        <target>Abonnement:</target>
+      </trans-unit>
+      <trans-unit id="7658402240953727096" datatype="html">
+        <source>Name:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/session/session.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+        <target>Nom:</target>
+      </trans-unit>
+      <trans-unit id="8168555707673684367" datatype="html">
+        <source>Nickname:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/session/session.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+        <target>Surnom:</target>
+      </trans-unit>
+      <trans-unit id="7443369317820981749" datatype="html">
+        <source>Access Token:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/session/session.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+        <target>Jeton d'accès:</target>
+      </trans-unit>
+      <trans-unit id="8971000798536869404" datatype="html">
+        <source>ID Token:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/session/session.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+        <target>Jeton d'identification :</target>
+      </trans-unit>
+      <trans-unit id="3518161279591157808" datatype="html">
+        <source>Click to login</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/session/session.component.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+        <target>Cliquez pour vous connecter</target>
+      </trans-unit>
+      <trans-unit id="2255738207434422096" datatype="html">
+        <source>LOGIN</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/session/session.component.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+        <target>CONNEXION</target>
+      </trans-unit>
+      <trans-unit id="7534590032774850594" datatype="html">
+        <source>Click to force a refresh of the session</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/session/session.component.html</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+        <target>Cliquer pour forcer un rafraichissement de la session</target>
+      </trans-unit>
+      <trans-unit id="3394531107275349012" datatype="html">
+        <source>REFRESH SESSION</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/session/session.component.html</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+        <target>SESSION DE RAFRAÎCHISSEMENT</target>
+      </trans-unit>
+      <trans-unit id="4989647372059971855" datatype="html">
+        <source>Click to logout</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/session/session.component.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+        <target>Cliquez pour vous déconnecter</target>
+      </trans-unit>
+      <trans-unit id="1139726559145415106" datatype="html">
+        <source>LOGOUT</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/session/session.component.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+        <target>SE DÉCONNECTER</target>
+      </trans-unit>
+      <trans-unit id="9179715948442370125" datatype="html">
+        <source>Unauthorized Page</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/unauthorized/unauthorized.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+        <target>Page non autorisée</target>
+      </trans-unit>
+      <trans-unit id="9088238931055007855" datatype="html">
+        <source>Unauthorized users will be routed to this page.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/unauthorized/unauthorized.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <target>Les utilisateurs non autorisés seront redirigés vers cette page.</target>
+      </trans-unit>
+      <trans-unit id="826658514728068830" datatype="html">
+        <source>You aren't authorized to see my amazing app. Git gud.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/unauthorized/unauthorized.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <target>Vous n'êtes pas autorisé à voir mon incroyable application. Git Gud.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

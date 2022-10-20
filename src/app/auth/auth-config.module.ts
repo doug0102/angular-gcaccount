@@ -26,5 +26,3 @@ import { AuthModule } from 'angular-auth-oidc-client';
     exports: [AuthModule],
 })
 export class AuthConfigModule {}
-
-// https://www.npmjs.com/package/angular-auth-oidc-client
